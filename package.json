@@ -1,0 +1,32 @@
+{
+  "name": "sendemail",
+  "version": "1.0.0",
+  "description": "11-Nov-21",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app1.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishwakarmasuraj/sendEmail.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishwakarmasuraj/sendEmail/issues"
+  },
+  "homepage": "https://github.com/vishwakarmasuraj/sendEmail#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "nodemailer": "^6.7.0"
+  }
+}
